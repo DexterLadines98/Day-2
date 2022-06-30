@@ -1,0 +1,49 @@
+.square {
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square__space {
+  margin: 50px;
+}
+.square__space--colorme {
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+.square .square1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.square .square1 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.square .square2 {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.square .square2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.square .square3 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+}
+.square .square3 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

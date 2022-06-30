@@ -1,0 +1,71 @@
+$primary-color: pink;
+$button-color: white;
+$button-width: 100px;
+$button-height: 40px;
+$square-height: 200px;
+$square-width: 200px;
+
+
+.square {
+    height: 100vh;
+    background-color: $primary-color;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &__space{
+        margin: 50px;
+
+        &--colorme{
+            background-color: green;
+            color: $button-color;
+            width: $button-width;
+            height: $button-height;
+         }
+    }
+     
+    
+    .square1 {
+    height: $square-height;
+    width: $square-width;
+    background-color: red;
+    
+        button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+        }
+    
+    }
+
+    .square2{
+        height: $square-height;
+        width: $square-width;
+        background-color: blue;
+        
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            }
+    }
+
+    .square3{
+        height: $square-height;
+        width: $square-width;
+        background-color: orange;
+        
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            }
+    }
+
+}
